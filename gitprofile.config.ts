@@ -20,7 +20,14 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [
+            'Yarne-Goossens/Bomen_en_grafen_oefeningen', 
+            'Yarne-Goossens/ip-major-2223', 
+            'Yarne-Goossens/BS2_Back-End', 
+            'Yarne-Goossens/course-material', 
+            'Yarne-Goossens/BS2_Front-End', 
+            'Yarne-Goossens/csharp-intro'
+          ], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -65,7 +72,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'yarne-goossens.github.io/assets/Zentern Resume Template - IT - Creative - engineering.docx', // Empty fileUrl will hide the `Download Resume` button.
+      '/Resume.docx', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -95,10 +102,16 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'BusIT Hasselt',
+      body: 'Work with team to make a small car drive in a simulation',
+      year: 'March 2024',
+      link: '/pxlcert.jpg',
+    },
+    {
+      name: 'BusIT Brugge',
+      body: 'Work in a team to configure a Raspberry Pi drive a car around a track',
+      year: 'March 2024',
+      link: '/howestcert.jpg',
     },
   ],
   educations: [
