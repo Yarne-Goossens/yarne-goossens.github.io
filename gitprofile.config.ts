@@ -39,7 +39,14 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-
+        {
+          title: 'Maakbaar Leuven',
+          description:
+            'A static site showcasing the prototype site we made for Maakbaar Leuven (does not have database connection)',
+          imageUrl:
+            '/maakbaarleuven_logo.png',
+          link: 'https://werkplek-project.vercel.app/main/resources/templates/index.html',
+        }
       ],
     },
   },
