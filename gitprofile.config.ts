@@ -21,7 +21,7 @@ const CONFIG = {
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [
-            'Yarne-Goossens/yarne-goossens.github.io'
+            'Yarne-Goossens/yarne-goossens.github.io',
             'Yarne-Goossens/Bomen_en_grafen_oefeningen', 
             'Yarne-Goossens/ip-major-2223', 
             'Yarne-Goossens/BS2_Back-End', 
