@@ -21,6 +21,7 @@ const CONFIG = {
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [
+            'Yarne-Goossens/yarne-goossens.github.io'
             'Yarne-Goossens/Bomen_en_grafen_oefeningen', 
             'Yarne-Goossens/ip-major-2223', 
             'Yarne-Goossens/BS2_Back-End', 
@@ -42,7 +43,7 @@ const CONFIG = {
         {
           title: 'Maakbaar Leuven',
           description:
-            'A static site showcasing the prototype site we made for Maakbaar Leuven (does not have database connection)',
+            'A static site showcasing the prototype site we made for Maakbaar Leuven where users can make a self-diagnoses of their broken vacuum cleaner (does not have database connection)',
           imageUrl:
             '/maakbaarleuven_logo.png',
           link: 'https://werkplek-project.vercel.app/main/resources/templates/index.html',
@@ -110,7 +111,7 @@ const CONFIG = {
   certifications: [
     {
       name: 'BusIT Hasselt',
-      body: 'Work with team to make a small car drive in a simulation',
+      body: 'Work with team to make a small car drive in a simulation using ROS',
       year: 'March 2024',
       link: '/pxlcert.jpg',
     },
