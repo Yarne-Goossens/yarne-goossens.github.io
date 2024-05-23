@@ -27,7 +27,8 @@ const CONFIG = {
             'Yarne-Goossens/BS2_Back-End', 
             'Yarne-Goossens/course-material', 
             'Yarne-Goossens/BS2_Front-End', 
-            'Yarne-Goossens/csharp-intro'
+            'Yarne-Goossens/csharp-intro',
+            'Yarne-Goossens/web2',
           ], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
