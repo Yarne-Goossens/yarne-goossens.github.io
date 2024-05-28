@@ -149,7 +149,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -165,8 +165,8 @@ const CONFIG = {
     // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
-      'dark',
-      /*'cupcake',
+      /*'dark',
+      'cupcake',
       'bumblebee',
       'emerald',
       'corporate',
