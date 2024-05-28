@@ -195,8 +195,8 @@ const CONFIG = {
       'winter',
       'dim',
       'nord',
-      'sunset',
-      'procyon',*/
+      'sunset',*/
+      'procyon',
     ],
 
     // Custom theme, applied to `procyon` theme
