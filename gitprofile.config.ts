@@ -85,6 +85,7 @@ const CONFIG = {
   },
   skills: [
     'JavaScript',
+    'Springboot',
     'React.js',
     'Node.js',
     'MySQL',
@@ -103,10 +104,18 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Simpleasy',
+      position: 'Internship',
+      from: 'September 2024',
+      to: 'December 2024',
+      link: 'https://www.linkedin.com/company/simpleasy/',
+    },
+    {
       company: 'ICTS KU Leuven',
       position: 'Student Job',
       from: 'July 2021',
       to: 'Present',
+      link: 'https://www.linkedin.com/school/ku_leuven/',
     },
   ],
   certifications: [
@@ -114,13 +123,11 @@ const CONFIG = {
       name: 'BusIT Hasselt',
       body: 'Work with team to make a small car drive in a simulation using ROS',
       year: 'March 2024',
-      link: '/pxlcert.jpg',
     },
     {
       name: 'BusIT Brugge',
       body: 'Work in a team to configure a Raspberry Pi drive a car around a track',
       year: 'March 2024',
-      link: '/howestcert.jpg',
     },
   ],
   educations: [
@@ -128,7 +135,13 @@ const CONFIG = {
       institution: 'UCLL',
       degree: 'Bachelor in Applied Computer Science',
       from: '2021',
-      to: '2024',
+      to: '2025',
+    },
+    {
+      institution: 'UCLL',
+      degree: 'Creditcontract for cybersecurity classes',
+      from: '2025',
+      to: '2027',
     },
   ],
   publications: [
