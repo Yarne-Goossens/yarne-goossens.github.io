@@ -108,14 +108,14 @@ const CONFIG = {
       position: 'Internship',
       from: 'September 2024',
       to: 'December 2024',
-      link: 'https://www.linkedin.com/company/simpleasy/',
+      companyLink: 'https://www.linkedin.com/company/simpleasy/',
     },
     {
       company: 'ICTS KU Leuven',
       position: 'Student Job',
       from: 'July 2021',
       to: 'Present',
-      link: 'https://www.linkedin.com/school/ku_leuven/',
+      companyLink: 'https://www.linkedin.com/school/ku_leuven/',
     },
   ],
   certifications: [
